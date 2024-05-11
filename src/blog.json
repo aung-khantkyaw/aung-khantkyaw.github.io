@@ -12,5 +12,13 @@
         "description": "<b>Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis, adipisci? Molestias enim, officia sapiente deserunt culpa distinctio porro aspernatur autem. Laboriosam a incidunt minus modi tempore alias, non iste mollitia?</b><img src='/blog/coder.png' className='w-full h-full object-cover' />",
         "date": "2022-01-02",
         "url": "/blog/coder.png"
+    },
+    {
+        "id": 3,
+        "title":"Blog 3",
+        "description":"<b>Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis, adipisci? Molestias enim, officia sapiente deserunt culpa distinctio porro aspernatur autem. Laboriosam a incidunt minus modi tempore alias, non iste mollitia?</b><img src='/blog/coder.png' className='w-full h-full object-cover' />",
+        "date":"2022-01-03",
+        "url":"/blog/coder.png"
     }
 ]
+
