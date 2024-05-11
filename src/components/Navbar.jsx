@@ -50,15 +50,7 @@ function Navbar() {
                 <Link to="/">Home</Link>
               </li>
               <li>
-                <a>Parent</a>
-                <ul className="p-2">
-                  <li>
-                    <a>Submenu 1</a>
-                  </li>
-                  <li>
-                    <a>Submenu 2</a>
-                  </li>
-                </ul>
+                <Link to="/portfolio">Portfolio</Link>
               </li>
               <li>
                 <Link to="/blog">Blog</Link>
@@ -66,7 +58,7 @@ function Navbar() {
             </ul>
           </div>
           <a className="btn btn-ghost">
-            <img src="./robot.png" alt="" className="w-12 h-12" />
+            <img src="/robot.png" alt="" className="w-12 h-12" />
           </a>
         </div>
         <div className="navbar-center hidden lg:flex">
@@ -75,17 +67,7 @@ function Navbar() {
               <Link to="/">Home</Link>
             </li>
             <li>
-              <details>
-                <summary>Parent</summary>
-                <ul className="p-2">
-                  <li>
-                    <a>Submenu 1</a>
-                  </li>
-                  <li>
-                    <a>Submenu 2</a>
-                  </li>
-                </ul>
-              </details>
+              <Link to="/portfolio">Portfolio</Link>
             </li>
             <li>
               <Link to="/blog">Blog</Link>

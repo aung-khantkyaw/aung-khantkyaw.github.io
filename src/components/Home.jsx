@@ -8,10 +8,10 @@ function Home() {
         alt=""
         className="w-full h-40 pt-5 object-cover md:h-80"
       />
-      <div className="flex justify-between mx-10">
+      <div className="flex flex-col items-center md:flex-row md:justify-between md:mx-10">
         <div className="flex gap-x-10">
             <div className="avatar -mt-8">
-                <div className="w-32 rounded-full ring ring-primary ring-offset-base-100 ring-offset-2">
+                <div className="w-32 rounded-2xl md:rounded-full ring ring-primary ring-offset-base-100 ring-offset-2">
                 <img src="./myPhoto.jpg" />
                 </div>
             </div>
@@ -28,7 +28,10 @@ function Home() {
             <a href="https://github.com/aung-khantkyaw" target="_blank"><FaGithub className="text-4xl" /></a>
         </div>
       </div>
-      <div className="container mx-auto mt-5">
+      <div className="container mx-auto mt-5 px-5">
+        <p className="md:text-xl font-bold text-center">
+          I am a software engineer who loves to build web applications.
+        </p>
         
       </div>
     </div>

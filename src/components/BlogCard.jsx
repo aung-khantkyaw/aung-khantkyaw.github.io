@@ -1,21 +1,31 @@
 import PropTypes from 'prop-types';
+import { Link } from 'react-router-dom';
 
-function BlogCard({ title, description, date, url }) {
+function BlogCard({ title, description, date, id }) {
     BlogCard.propTypes = {
+        id: PropTypes.string.isRequired,
         title: PropTypes.string.isRequired,
         description: PropTypes.string.isRequired,
         date: PropTypes.string.isRequired,
-        url: PropTypes.string.isRequired,
     };
 
     return (
-        <a to={`/blog/${url}`}>
-            <div className="bg-white rounded-lg shadow-md p-4">
-                <h3 className="text-xl font-bold mb-2">{title}</h3>
-                <p className="text-sm text-gray-500 mb-4">{description}</p>
-                <p className="text-sm text-gray-500">{date}</p>
+        <Link to={`/blog/${id}`}>
+            <div className="card bg-base-100 shadow-xl image-full">
+                <div className="card-body">
+                    <div className='flex items-center gap-x-5'>
+                            <img src="./myPhoto.jpg" className="w-12 rounded-full ring ring-primary ring-offset-base-100 ring-offset-2" />
+                        <div>
+                            <h2 className="card-title">{title}</h2>
+                            <p>{date}</p>
+                        </div>
+                    </div>
+                    
+                    <div dangerouslySetInnerHTML={{ __html: description.length > 100 ? description.substring(0, 100) + "..." : description }} />
+                </div>
             </div>
-        </a>
+           
+        </Link>
     );
 }
 
