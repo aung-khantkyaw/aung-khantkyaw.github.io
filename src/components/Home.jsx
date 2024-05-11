@@ -30,7 +30,7 @@ function Home() {
       </div>
       <div className="container mx-auto mt-5 px-5">
         <p className="md:text-xl font-bold text-center">
-          I am a software engineer who loves to build web applications.
+          I am a software engineer who loves to build web applications. I can build a website for you.
         </p>
         
       </div>
