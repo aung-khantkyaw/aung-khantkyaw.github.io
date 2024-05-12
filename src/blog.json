@@ -3,7 +3,7 @@
         "id": 1,
         "title": "Blog 1",
         "description": "<b>Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis, adipisci? Molestias enim, officia sapiente deserunt culpa distinctio porro aspernatur autem. Laboriosam a incidunt minus modi tempore alias, non iste mollitia?</b><img src='/blog/coder.png' className='w-full h-full object-cover' />",
-        "date": "2022-01-01",
+        "date": "Feb 28, 2023",
         "url": "/blog/coder.png"
     },
     {

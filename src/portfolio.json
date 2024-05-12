@@ -1,0 +1,23 @@
+[
+    {
+        "id": 1,
+        "title": "IPTS",
+        "description": "Information of Playing Techniques for Sports",
+        "image": "/portfolio/ipts.png",
+        "link": "https://aung-khantkyaw.github.io/IPTS/",
+        "github": "https://github.com/aung-khantkyaw/IPTS",
+        "tech": ["HTML", "CSS", "Bootstrap 5"],
+        "date": "Feb 28, 2023"
+    },
+    {
+        "id": 2,
+        "title": "EWFP",
+        "description": "Entertainment Website for Pleasure",
+        "image": "/portfolio/ewfp.png",
+        "link": "https://aung-khantkyaw.github.io/EWFP/",
+        "github": "https://github.com/aung-khantkyaw/EWFP",
+        "tech": ["HTML", "CSS", "JavaScript", "Bootstrap 5"],
+        "date": "Sep 16, 2023"
+    }
+]
+

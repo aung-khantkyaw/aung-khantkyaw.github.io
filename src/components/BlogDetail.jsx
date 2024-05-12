@@ -12,13 +12,12 @@ function BlogDetail() {
             <div className="flex items-center gap-x-5">
                 <img src="/myPhoto.jpg" className="w-12 rounded-full ring ring-primary ring-offset-base-100 ring-offset-2" />
                 <div>
-                    <h1 className="text-3xl font-bold">{blog.title}</h1>
-                    <p>{blog.date}</p>
+                    <h1 className="text-2xl font-bold">{blog.title}</h1>
+                    <p className="text-neutral-content">{blog.date}</p>
                 </div>
             </div>
 
-            <div dangerouslySetInnerHTML={{ __html: blog.description }} className="mt-10" />
-            
+            <div dangerouslySetInnerHTML={{ __html: blog.description }} className="mt-10" />           
         </div>
     </div>
   );
