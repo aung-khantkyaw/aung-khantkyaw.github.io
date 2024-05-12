@@ -36,19 +36,19 @@ function Home() {
             <a href="https://github.com/aung-khantkyaw" target="_blank"><FaGithub className="text-4xl" /></a>
         </div>
       </div>
-      <div className="w-1/2 mx-auto p-5 bg-base-300 rounded-xl shadow-md">
-      <div className="mockup-code">
-        <pre data-prefix="1"><code>let person = {"{"}</code></pre> 
-        <pre data-prefix="2"><code>   name: &quot;Aung Khant Kyaw&quot;,</code></pre> 
-        <pre data-prefix="3"><code>   age: {age},</code></pre> 
-        <pre data-prefix="4"><code>   gender: &quot;Male&quot;,</code></pre> 
-        <pre data-prefix="5"><code>   programming: {"{"} </code></pre> 
-        <pre data-prefix="6"><code>       language: [&quot;JavaScript&quot;, &quot;Java&quot;, &quot;PHP&quot;],</code></pre> 
-        <pre data-prefix="7"><code>       framework: [&quot;Tailwind&quot;, &quot;Node&quot;, &quot;Express&quot;, &quot;Laravel&quot;],</code></pre> 
-        <pre data-prefix="8"><code>       library: [&quot;React&quot;]</code></pre> 
-        <pre data-prefix="9"><code>   {"}"}</code></pre> 
-        <pre data-prefix="10"><code>{"}"}</code></pre> 
-      </div>
+      <div className="m-5 p-5 bg-base-300 rounded-xl shadow-md">
+        <div className="mockup-code">
+          <pre data-prefix="1"><code>let person = {"{"}</code></pre> 
+          <pre data-prefix="2"><code>   name: &quot;Aung Khant Kyaw&quot;,</code></pre> 
+          <pre data-prefix="3"><code>   age: {age},</code></pre> 
+          <pre data-prefix="4"><code>   gender: &quot;Male&quot;,</code></pre> 
+          <pre data-prefix="5"><code>   programming: {"{"} </code></pre> 
+          <pre data-prefix="6"><code>       language: [&quot;JavaScript&quot;, &quot;Java&quot;, &quot;PHP&quot;],</code></pre> 
+          <pre data-prefix="7"><code>       framework: [&quot;Tailwind&quot;, &quot;Node&quot;, &quot;Express&quot;, &quot;Laravel&quot;],</code></pre> 
+          <pre data-prefix="8"><code>       library: [&quot;React&quot;]</code></pre> 
+          <pre data-prefix="9"><code>   {"}"}</code></pre> 
+          <pre data-prefix="10"><code>{"}"}</code></pre> 
+        </div>
 
         {/* <p>
         🙋‍♂️ Greetings from my portfolio! <br />

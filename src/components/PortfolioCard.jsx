@@ -11,7 +11,7 @@ function PortfolioCard({title, description, image, link, github, tech, date }) {
         date: PropTypes.string.isRequired
     };
   return (
-    <div className="card w-96 bg-base-300 shadow-xl z-0">
+    <div className="card bg-base-300 shadow-xl z-0">
             <figure className="px-10 pt-10 ">
               <img src={image} alt={title} className="rounded-xl border-4 border-base-200" />
             </figure>
