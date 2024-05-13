@@ -22,12 +22,12 @@ function PortfolioCard({title, description, image, link, github, tech, date }) {
                   <p className="text-sm">{date}</p>
                 </div>
                 <div className="flex gap-2">
-                  <a href={link} target="_blank" rel="noopener noreferrer" className="btn btn-neutral">Live Demo</a>
+                  {link ? <a href={link} target="_blank" rel="noopener noreferrer" className="btn btn-neutral">Live Demo</a> : null}
                   <a href={github} target="_blank" rel="noopener noreferrer" className="btn btn-neutral"><FaGithub className="text-xl" /></a>
                 </div>
               </div>
               <p>{description}</p>
-              <div className="flex gap-2">
+              <div className="flex gap-2 flex-warp">
               {
                 tech.map((tech) => (
                   <span className="kbd" key={tech}>{tech}</span>

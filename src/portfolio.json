@@ -18,6 +18,33 @@
         "github": "https://github.com/aung-khantkyaw/EWFP",
         "tech": ["HTML", "CSS", "JavaScript", "Bootstrap 5"],
         "date": "Sep 16, 2023"
+    },
+    {
+        "id": 3,
+        "title": "AntWarrior",
+        "description": "AntWarrior Blog using vinella JS",
+        "image": "/portfolio/AntWarrior.png",
+        "github": "https://github.com/aung-khantkyaw/AntWarrior",
+        "tech": ["HTML", "CSS", "JavaScript"],
+        "date": "Oct 24, 2023"
+    },
+    {
+        "id": 4,
+        "title": "Blogger",
+        "description": "Blog System with React Js",
+        "image": "/portfolio/blogger.png",
+        "github": "https://github.com/aung-khantkyaw/Blogger",
+        "tech": ["HTML", "CSS", "React"],
+        "date": "Dec 7, 2023"
+    },
+    {
+        "id": 5,
+        "title": "SNPOC",
+        "description": "Social Network Platform for Online Communities",
+        "image": "/portfolio/snpoc.png",
+        "github": "https://github.com/aung-khantkyaw/Social_Network",
+        "tech": ["Laravel", "Blade", "Tailwind"],
+        "date": "Mar 13, 2024"
     }
 ]
 
