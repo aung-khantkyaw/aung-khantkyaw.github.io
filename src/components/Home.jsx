@@ -43,9 +43,9 @@ function Home() {
           <pre data-prefix="3"><code>   age: {age},</code></pre> 
           <pre data-prefix="4"><code>   gender: &quot;Male&quot;,</code></pre> 
           <pre data-prefix="5"><code>   programming: {"{"} </code></pre> 
-          <pre data-prefix="6"><code>       language: [&quot;JavaScript&quot;, &quot;Java&quot;, &quot;PHP&quot;],</code></pre> 
-          <pre data-prefix="7"><code>       framework: [&quot;Tailwind&quot;, &quot;Node&quot;, &quot;Express&quot;, &quot;Laravel&quot;],</code></pre> 
-          <pre data-prefix="8"><code>       library: [&quot;React&quot;]</code></pre> 
+          <pre data-prefix="6"><code>       languages: [&quot;JavaScript&quot;, &quot;Java&quot;, &quot;PHP&quot;],</code></pre> 
+          <pre data-prefix="7"><code>       frameworks: [&quot;Tailwind&quot;, &quot;Node&quot;, &quot;Express&quot;, &quot;Laravel&quot;],</code></pre> 
+          <pre data-prefix="8"><code>       libraries: [&quot;React&quot;]</code></pre> 
           <pre data-prefix="9"><code>   {"}"}</code></pre> 
           <pre data-prefix="10"><code>{"}"}</code></pre> 
         </div>
