@@ -1,5 +1,14 @@
 [
     {
+        "id": 0,
+        "title": "Digital Library System",
+        "description": "A J2EE-based project for managing and accessing digital library resources.",
+        "image": "/portfolio/digital-library.png",
+        "github": "https://github.com/aung-khantkyaw/digital-library-system",
+        "tech": ["J2EE", "MySQL"],
+        "date": "Aug 27, 2024"
+    },
+    {
         "id": 1,
         "title": "IPTS",
         "description": "Information of Playing Techniques for Sports",
@@ -45,6 +54,15 @@
         "github": "https://github.com/aung-khantkyaw/Social_Network",
         "tech": ["Laravel", "Blade", "Tailwind"],
         "date": "Mar 13, 2024"
+    },
+    {
+        "id": 6,
+        "title": "Myanmar Wisdom Hub",
+        "description": "Myanmar Wisdom Hub C# API",
+        "image": "/portfolio/myanmar-wisdom-hub.png",
+        "github": "https://github.com/aung-khantkyaw/MyanmarWisdomHubAPI",
+        "tech": ["C#", "DotNet"],
+        "date": "Sep 16, 2024"
     }
 ]
 
