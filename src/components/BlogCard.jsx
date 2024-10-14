@@ -14,8 +14,8 @@ function BlogCard({ title, description, date, id }) {
         
             <div className="card bg-base-100 shadow-xl image-full z-0">
                 <div className="card-body">
-                    <div className='flex items-center justify-between gap-x-5'>
-                        <div className='flex items-center gap-x-5'>
+                    <div className='block md:flex items-center justify-between gap-x-5'>
+                        <div className='flex items-center gap-x-5 mb-5'>
                                 <img src="./myPhoto.jpg" className="w-12 rounded-full ring ring-primary ring-offset-base-100 ring-offset-2" />
                             <div>
                                 <h3 className="card-title text-lg">{title}</h3>

@@ -14,12 +14,12 @@ function Home() {
       <img
         src="./background.jpg"
         alt=""
-        className="w-full h-40 pt-5 object-cover md:h-72"
+        className="w-full h-52 pt-5 object-cover md:h-96"
       />
       <div className="flex flex-col items-center md:flex-row md:justify-between md:mx-10">
-        <div className="flex gap-x-10">
-            <div className="avatar -mt-8">
-                <div className="w-32 rounded-2xl md:rounded-full ring ring-primary ring-offset-base-100 ring-offset-2">
+        <div className="md:flex gap-x-10 block text-center">
+            <div className="avatar -mt-12">
+                <div className="w-32 rounded-full ring ring-primary ring-offset-base-100 ring-offset-2">
                 <img src="./myPhoto.jpg" />
                 </div>
             </div>

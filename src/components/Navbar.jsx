@@ -58,7 +58,7 @@ function Navbar() {
             </ul>
           </div>
           <a className="btn btn-ghost">
-            <img src="/robot.png" alt="" className="w-12 h-12" />
+            <img src="/logo.jpg" alt="" className="w-12 h-12 rounded-full" />
           </a>
         </div>
         <div className="navbar-center hidden lg:flex">
@@ -74,7 +74,7 @@ function Navbar() {
             </li>
           </ul>
         </div>
-        <div className="navbar-end">
+        <div className="navbar-end mr-4">
           <label className="swap swap-rotate">
             <input
               type="checkbox"

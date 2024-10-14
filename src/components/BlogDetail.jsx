@@ -7,7 +7,7 @@ function BlogDetail() {
     const blog = blogs.find(blog => blog.id === Number(id))
 
   return (
-    <div className="container mx-auto mt-20"> 
+    <div className="container mx-auto mt-20 px-2"> 
         <div className="my-10 bg-neutral p-10 rounded-xl">
             <div className="flex items-center gap-x-5">
                 <img src="/myPhoto.jpg" className="w-12 rounded-full ring ring-primary ring-offset-base-100 ring-offset-2" />
